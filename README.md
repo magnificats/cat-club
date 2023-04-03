@@ -1,7 +1,5 @@
 ## Cat Club
 
-cat show and ranking software
+Cat how and ranking software!
 
-#### License
-
-MIT
+This will be a frappe app to enable users to manage cat clubs, shows, rings, etc. Currently in the extremely early stages of development. So early, in fact, that this is all just boilerplate code. Watch this space!
