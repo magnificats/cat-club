@@ -1,0 +1,157 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-05 22:50:30.474717",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "catname",
+  "titles",
+  "dob",
+  "breed",
+  "colour",
+  "sex",
+  "pedigree_number",
+  "breeder",
+  "owner",
+  "father",
+  "mother",
+  "organisation",
+  "owner_email",
+  "telephone_number",
+  "cattery",
+  "address",
+  "city",
+  "country",
+  "image"
+ ],
+ "fields": [
+  {
+   "fieldname": "catname",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "titles",
+   "fieldtype": "Table MultiSelect",
+   "label": "Titles",
+   "options": "Titles"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "breed",
+   "fieldtype": "Data",
+   "label": "Breed"
+  },
+  {
+   "fieldname": "colour",
+   "fieldtype": "Data",
+   "label": "Colour"
+  },
+  {
+   "fieldname": "sex",
+   "fieldtype": "Select",
+   "label": "Sex",
+   "options": "Male\nFemale\nNeuter\nSpay"
+  },
+  {
+   "fieldname": "pedigree_number",
+   "fieldtype": "Data",
+   "label": "Pedigree Number"
+  },
+  {
+   "fieldname": "breeder",
+   "fieldtype": "Data",
+   "label": "Breeder"
+  },
+  {
+   "fieldname": "owner",
+   "fieldtype": "Data",
+   "label": "Owner"
+  },
+  {
+   "fieldname": "father",
+   "fieldtype": "Link",
+   "label": "Father",
+   "options": "Cat"
+  },
+  {
+   "fieldname": "mother",
+   "fieldtype": "Link",
+   "label": "Mother",
+   "options": "Cat"
+  },
+  {
+   "fieldname": "organisation",
+   "fieldtype": "Select",
+   "label": "Organisation",
+   "options": "\nWCF\nTICA\nGCCF"
+  },
+  {
+   "fieldname": "owner_email",
+   "fieldtype": "Data",
+   "label": "Owner Email"
+  },
+  {
+   "fieldname": "telephone_number",
+   "fieldtype": "Phone",
+   "label": "Telephone Number"
+  },
+  {
+   "fieldname": "cattery",
+   "fieldtype": "Data",
+   "label": "Cattery"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Image",
+   "label": "Image"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-04-05 23:13:42.927996",
+ "modified_by": "Administrator",
+ "module": "Cat Club",
+ "name": "Cat",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
