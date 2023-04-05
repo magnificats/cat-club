@@ -1,6 +1,6 @@
 ## Cat Club
 
-Cat how and ranking software!
+Cat show and ranking software!
 
 This will be a frappe app to enable users to manage cat clubs, shows, rings, etc. Currently in the extremely early stages of development. Use at your own peril: expect things to change drastically on a daily basis, and things to break. It is NOT RECOMMENDED for non-developers to use this software at the current moment.
 
