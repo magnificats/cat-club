@@ -1,4 +1,4 @@
-\## Cat Club
+## Cat Club
 
 Cat how and ranking software!
 
