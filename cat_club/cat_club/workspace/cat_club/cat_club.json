@@ -1,0 +1,96 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"V0wG5JTbkq\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Cat Club</span>\",\"col\":12}},{\"id\":\"H3j8EY9AEX\",\"type\":\"card\",\"data\":{\"card_name\":\"Cats\",\"col\":4}}]",
+ "creation": "2023-04-06 20:06:37.378295",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "tag",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Cat Club",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cats",
+   "link_count": 0,
+   "link_to": "Cat",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "EMS Codes",
+   "link_count": 0,
+   "link_to": "EMS Codes",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Titles",
+   "link_count": 0,
+   "link_to": "Titles",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cats",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cats",
+   "link_count": 0,
+   "link_to": "Cat",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "EMS Codes",
+   "link_count": 0,
+   "link_to": "EMS Codes",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Titles",
+   "link_count": 0,
+   "link_to": "Title",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-04-06 20:11:28.330785",
+ "modified_by": "Administrator",
+ "module": "Cat Club",
+ "name": "Cat Club",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 30.0,
+ "shortcuts": [],
+ "title": "Cat Club"
+}

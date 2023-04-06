@@ -7,17 +7,18 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "catname",
+  "cat_name",
   "titles",
   "dob",
-  "breed",
-  "colour",
+  "ems_code",
   "sex",
   "pedigree_number",
   "breeder",
-  "owner",
+  "owner_name",
   "father",
+  "father_ems_code",
   "mother",
+  "mother_ems_code",
   "organisation",
   "owner_email",
   "telephone_number",
@@ -29,11 +30,6 @@
  ],
  "fields": [
   {
-   "fieldname": "catname",
-   "fieldtype": "Data",
-   "label": "Name"
-  },
-  {
    "fieldname": "titles",
    "fieldtype": "Table MultiSelect",
    "label": "Titles",
@@ -42,23 +38,17 @@
   {
    "fieldname": "dob",
    "fieldtype": "Date",
-   "label": "Date of Birth"
-  },
-  {
-   "fieldname": "breed",
-   "fieldtype": "Data",
-   "label": "Breed"
-  },
-  {
-   "fieldname": "colour",
-   "fieldtype": "Data",
-   "label": "Colour"
+   "in_list_view": 1,
+   "label": "Date of Birth",
+   "reqd": 1
   },
   {
    "fieldname": "sex",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Sex",
-   "options": "Male\nFemale\nNeuter\nSpay"
+   "options": "Male\nFemale\nNeuter\nSpay",
+   "reqd": 1
   },
   {
    "fieldname": "pedigree_number",
@@ -69,11 +59,6 @@
    "fieldname": "breeder",
    "fieldtype": "Data",
    "label": "Breeder"
-  },
-  {
-   "fieldname": "owner",
-   "fieldtype": "Data",
-   "label": "Owner"
   },
   {
    "fieldname": "father",
@@ -96,7 +81,8 @@
   {
    "fieldname": "owner_email",
    "fieldtype": "Data",
-   "label": "Owner Email"
+   "label": "Owner Email",
+   "reqd": 1
   },
   {
    "fieldname": "telephone_number",
@@ -121,17 +107,55 @@
   {
    "fieldname": "country",
    "fieldtype": "Data",
-   "label": "Country"
+   "label": "Country",
+   "reqd": 1
   },
   {
    "fieldname": "image",
-   "fieldtype": "Image",
+   "fieldtype": "Attach Image",
    "label": "Image"
+  },
+  {
+   "fieldname": "owner_name",
+   "fieldtype": "Data",
+   "label": "Owner",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cat_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ems_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "EMS Code",
+   "options": "EMS Codes",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "father.ems_code",
+   "fieldname": "father_ems_code",
+   "fieldtype": "Link",
+   "label": "Father EMS Code",
+   "options": "EMS Codes",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "mother.ems_code",
+   "fieldname": "mother_ems_code",
+   "fieldtype": "Link",
+   "label": "Mother EMS Code",
+   "options": "EMS Codes",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-05 23:13:42.927996",
+ "modified": "2023-04-06 20:01:15.010444",
  "modified_by": "Administrator",
  "module": "Cat Club",
  "name": "Cat",
