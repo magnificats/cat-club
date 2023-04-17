@@ -1,0 +1,32 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-17 15:35:36.043817",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ring"
+ ],
+ "fields": [
+  {
+   "fieldname": "ring",
+   "fieldtype": "Link",
+   "label": "Ring",
+   "options": "Ring"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-04-17 15:36:21.521331",
+ "modified_by": "Administrator",
+ "module": "Cat Show",
+ "name": "Rings",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

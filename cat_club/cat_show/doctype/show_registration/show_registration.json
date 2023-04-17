@@ -1,0 +1,140 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-17 14:41:21.784806",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_information_section",
+  "cat",
+  "show",
+  "day_1_section",
+  "entering_day_1",
+  "title_day_1",
+  "rings_day_1",
+  "mono_day_1",
+  "day_2_section",
+  "entering_day_2",
+  "title_day_2",
+  "rings_day_2",
+  "mono_day_2",
+  "payment_section",
+  "payment_type"
+ ],
+ "fields": [
+  {
+   "fieldname": "basic_information_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Information"
+  },
+  {
+   "fieldname": "cat",
+   "fieldtype": "Link",
+   "label": "Cat",
+   "options": "Cat"
+  },
+  {
+   "fieldname": "show",
+   "fieldtype": "Link",
+   "label": "Show",
+   "options": "Show"
+  },
+  {
+   "default": "0",
+   "fieldname": "entering_day_1",
+   "fieldtype": "Check",
+   "label": "Entering Day 1"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "day_1_section",
+   "fieldtype": "Section Break",
+   "label": "Day 1"
+  },
+  {
+   "default": "0",
+   "fieldname": "mono_day_1",
+   "fieldtype": "Check",
+   "label": "Entering mono breed show"
+  },
+  {
+   "default": "0",
+   "fieldname": "entering_day_2",
+   "fieldtype": "Check",
+   "label": "Entering Day 2"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "day_2_section",
+   "fieldtype": "Section Break",
+   "label": "Day 2"
+  },
+  {
+   "default": "0",
+   "fieldname": "mono_day_2",
+   "fieldtype": "Check",
+   "label": "Entering mono breed show"
+  },
+  {
+   "fieldname": "payment_section",
+   "fieldtype": "Section Break",
+   "label": "Payment"
+  },
+  {
+   "fieldname": "payment_type",
+   "fieldtype": "Select",
+   "label": "Payment Type",
+   "options": "At the show\nUsing PayPal\nUsing a bank transfer"
+  },
+  {
+   "fieldname": "title_day_1",
+   "fieldtype": "Link",
+   "label": "Title",
+   "options": "Title"
+  },
+  {
+   "fieldname": "title_day_2",
+   "fieldtype": "Link",
+   "label": "Title",
+   "options": "Title"
+  },
+  {
+   "fieldname": "rings_day_1",
+   "fieldtype": "Table MultiSelect",
+   "label": "Rings",
+   "options": "Rings"
+  },
+  {
+   "fieldname": "rings_day_2",
+   "fieldtype": "Table MultiSelect",
+   "label": "Rings",
+   "options": "Rings"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-04-17 15:36:25.818407",
+ "modified_by": "Administrator",
+ "module": "Cat Show",
+ "name": "Show Registration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

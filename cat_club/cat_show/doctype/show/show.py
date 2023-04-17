@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class EMSCodes(Document):
+class Show(Document):
 	pass

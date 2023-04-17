@@ -133,7 +133,7 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "EMS Code",
-   "options": "EMS Codes",
+   "options": "EMS Code",
    "reqd": 1
   },
   {
@@ -141,7 +141,7 @@
    "fieldname": "father_ems_code",
    "fieldtype": "Link",
    "label": "Father EMS Code",
-   "options": "EMS Codes",
+   "options": "EMS Code",
    "read_only": 1
   },
   {
@@ -149,13 +149,13 @@
    "fieldname": "mother_ems_code",
    "fieldtype": "Link",
    "label": "Mother EMS Code",
-   "options": "EMS Codes",
+   "options": "EMS Code",
    "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-06 20:01:15.010444",
+ "modified": "2023-04-17 14:22:29.307216",
  "modified_by": "Administrator",
  "module": "Cat Club",
  "name": "Cat",

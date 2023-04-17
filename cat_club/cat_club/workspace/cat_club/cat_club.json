@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"V0wG5JTbkq\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Cat Club</span>\",\"col\":12}},{\"id\":\"H3j8EY9AEX\",\"type\":\"card\",\"data\":{\"card_name\":\"Cats\",\"col\":4}}]",
+ "content": "[{\"id\":\"V0wG5JTbkq\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Cat Club</span>\",\"col\":12}},{\"id\":\"H3j8EY9AEX\",\"type\":\"card\",\"data\":{\"card_name\":\"Cats\",\"col\":4}},{\"id\":\"2t5QpsfnRF\",\"type\":\"card\",\"data\":{\"card_name\":\"Shows\",\"col\":4}}]",
  "creation": "2023-04-06 20:06:37.378295",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -26,7 +26,7 @@
    "is_query_report": 0,
    "label": "EMS Codes",
    "link_count": 0,
-   "link_to": "EMS Codes",
+   "link_to": "EMS Code",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -64,7 +64,7 @@
    "is_query_report": 0,
    "label": "EMS Codes",
    "link_count": 0,
-   "link_to": "EMS Codes",
+   "link_to": "EMS Code",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -78,9 +78,47 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shows",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shows",
+   "link_count": 0,
+   "link_to": "Show",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Registrations",
+   "link_count": 0,
+   "link_to": "Show Registration",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Rings",
+   "link_count": 0,
+   "link_to": "Ring",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2023-04-06 20:11:28.330785",
+ "modified": "2023-04-17 15:27:57.225961",
  "modified_by": "Administrator",
  "module": "Cat Club",
  "name": "Cat Club",
