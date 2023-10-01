@@ -1,4 +1,6 @@
-## Cat Club
+## Cat Club 
+
+The project has been discontinued.
 
 Cat show and ranking software!
 
